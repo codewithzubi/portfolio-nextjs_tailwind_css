@@ -11,7 +11,7 @@ const Skills = () => {
         <div className="w-16 h-1 bg-gray-300 mb-8"></div>
         <div className="flex space-x-8">
           <div className="bg-white text-center text-purple-900 p-8 rounded-lg shadow-lg">
-            <FaLaptopCode className='className="fas fa-laptop-code text-6xl text-orange-500 mb-4"' />
+            <FaLaptopCode className="fas fa-laptop-code text-6xl text-orange-500 mb-4" />
             <h2 className="text-2xl font-bold mb-4">Web Development</h2>
             <p>
               There are many variations of passages of Lorem Ipsum available,
