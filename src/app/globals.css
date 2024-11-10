@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* styles/globals.css */
+body {
+    @apply text-white; /* This will make all text white */
+  }
+  
