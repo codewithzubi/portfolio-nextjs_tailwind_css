@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { FaFacebook, FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
-
 const Hero = () => {
   return (
     <div>
