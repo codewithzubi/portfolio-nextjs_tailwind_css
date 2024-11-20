@@ -7,7 +7,7 @@ const Hero = () => {
     <div>
       <section className="text-center py-10 px-4 bg-[#31065A]" id="Home">
         <div className="flex justify-center items-center">
-          <div className=" text-left">
+          <div className="text-left">
             <h1 className="text-4xl font-bold text-orange-500">Hi, Its me</h1>
             <h2 className="text-5xl font-bold mt-2">Zubair Ahmed</h2>
             <p className="text-xl mt-2">
