@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import myimg from "../../../public/img3.png"
 const About = () => {
   return (
     <div>
-      <section className="bg-[#170550] py-10 px-4">
+      <section className="bg-[#170550] py-10 px-4" id="About">
         <div className="mx-auto py-10">
           <div className="text-center mb-10">
             <h1 className="text-4xl font-bold">
@@ -14,18 +15,13 @@ const About = () => {
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center">
             <div className="mb-10 md:mb-0 md:mr-10 bg-[#1f0a64]">
-
-      
             <Image
-        src="/img3.png"  // Path ko slash se start karna hoga
+        src={myimg}  // Path ko slash se start karna hoga
         alt="A person standing in a park with trees and a colorful structure in the background"
         width={300}
         height={400} className="rounded-lg shadow-lg"
       />
            
-
-
-            
             </div>
             <div className="max-w-md text-center md:text-left">
               <h2 className="text-2xl font-bold mb-4">

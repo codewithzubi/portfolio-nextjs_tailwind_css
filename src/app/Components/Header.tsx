@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,12 +16,12 @@ const Header = () => {
 
         {/* Desktop Navigation Links */}
         <nav className="hidden md:flex space-x-8">
-          <a href="/" className="text-white text-lg hover:text-orange-500">Home</a>
-          <a href="/About" className="text-white text-lg hover:text-orange-500">About Me</a>
-          <a href="/Services" className="text-white text-lg hover:text-orange-500">Services</a>
-          <a href="/Skill" className="text-white text-lg hover:text-orange-500">Skills</a>
-          <a href="/Projects" className="text-white text-lg hover:text-orange-500">Projects</a>
-          <a href="/Contact" className="text-white text-lg hover:text-orange-500">Contact</a>
+        <Link href="#" className="text-white text-lg hover:text-orange-500">Home</Link>
+          <Link href="#About" className="text-white text-lg hover:text-orange-500">About Me</Link>
+          <Link href="#Services" className="text-white text-lg hover:text-orange-500">Services</Link>
+          <Link href="#Skill" className="text-white text-lg hover:text-orange-500">Skills</Link>
+          <Link href="#Projects" className="text-white text-lg hover:text-orange-500">Projects</Link>
+          <Link href="#Contact" className="text-white text-lg hover:text-orange-500">Contact</Link>
         </nav>
 
         {/* Hire Me Button */}
@@ -52,12 +53,12 @@ const Header = () => {
       {/* Mobile Navigation Menu */}
       {menuOpen && (
         <nav className="md:hidden bg-[#170550] text-white py-4">
-          <a href="/" className="block text-lg py-2 text-center hover:text-orange-500">Home</a>
-          <a href="/About" className="block text-lg py-2 text-center hover:text-orange-500">About Me</a>
-          <a href="/Services" className="block text-lg py-2 text-center hover:text-orange-500">Services</a>
-          <a href="/Skill" className="block text-lg py-2 text-center hover:text-orange-500">Skills</a>
-          <a href="/Projects" className="block text-lg py-2 text-center hover:text-orange-500">Projects</a>
-          <a href="/Contact" className="block text-lg py-2 text-center hover:text-orange-500">Contact</a>
+          <Link href="/" className="block text-lg py-2 text-center hover:text-orange-500">Home</Link>
+          <Link href="#About" className="block text-lg py-2 text-center hover:text-orange-500">About Me</Link>
+          <Link href="#Services" className="block text-lg py-2 text-center hover:text-orange-500">Services</Link>
+          <Link href="#Skill" className="block text-lg py-2 text-center hover:text-orange-500">Skills</Link>
+          <Link href="#Projects" className="block text-lg py-2 text-center hover:text-orange-500">Projects</Link>
+          <Link href="#Contact" className="block text-lg py-2 text-center hover:text-orange-500">Contact</Link>
         </nav>
       )}
     </header>
